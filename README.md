@@ -5,3 +5,10 @@
 ## 区块链基础
 
 **第1讲：区块链名称解释** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/blockchain_basics/01_explanation_of_nouns.md)
+
+
+
+## Solidity
+
+**第1讲：智能合约文件结构** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/01_structure.md)
+
