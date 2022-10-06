@@ -12,3 +12,4 @@
 
 **第1讲：智能合约文件结构** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/01_structure.md)
 
+**第2讲：智能合约源文件基本要素概览** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/02_structure_of_a_contract.md)
