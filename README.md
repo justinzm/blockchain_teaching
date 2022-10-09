@@ -20,13 +20,14 @@
 
 **第1例：僵尸大战**
 
-* **第1课：僵尸工厂** 文章 | 代码
+* **第1课：僵尸工厂** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/case/01_cryptozombies/01_making_the_zombie_factory/README.md) | [代码](https://github.com/justinzm/blockchain_teaching/blob/main/case/01_cryptozombies/01_making_the_zombie_factory)
+* **第2课：僵尸攻击人类** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/case/01_cryptozombies/02_zombies_attack_their_victims/README.md) | [代码](https://github.com/justinzm/blockchain_teaching/blob/main/case/01_cryptozombies/02_zombies_attack_their_victims)
+* **第3课：高级solidity理论** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/case/01_cryptozombies/03_advanced_solidity_concepts/README.md) | [代码](https://github.com/justinzm/blockchain_teaching/blob/main/case/01_cryptozombies/03_advanced_solidity_concepts)
 
 
 
 ## 资料推荐
 
-1. [Solidity中文文档](https://solidity-cn.readthedocs.io/zh/develop/introduction-to-smart-contracts.html)（官方文档的中文翻译）
-2. [Solidity by Example](https://solidity-by-example.org/) Solidity 例子
-3. [web3.js 中文文档](https://learnblockchain.cn/docs/web3.js/#)（官方文档的中文翻译）
-4. [崔棉大师solidity教程](https://space.bilibili.com/286084162) web3技术教学博主
+1. [Solidity中文文档](https://solidity-cn.readthedocs.io/zh/develop/introduction-to-smart-contracts.html)
+2. [Solidity by Example](https://solidity-by-example.org/)
+3. [web3.js 中文文档](https://learnblockchain.cn/docs/web3.js/#)
