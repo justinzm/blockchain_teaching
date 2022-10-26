@@ -44,45 +44,35 @@ int / uint：各种大小的有符号和无符号不同位数的整型变量。�
 
 ```
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity ^0.8;
 
 contract Payable {
-    // 可支付地址可以接收以太币 Payable address can receive Ether
+    // 可支付地址可以接收以太币
     address payable public owner;
 
-    // 构造函数可支付接收以太币 Payable constructor can receive Ether
+    // 可支付的构造函数可以接收以太币
     constructor() payable {
         owner = payable(msg.sender);
     }
 
-    // Function to deposit Ether into this contract.
-    // Call this function along with some Ether.
-    // The balance of this contract will be automatically updated.
-    //将Ether存入此契约的函数。
-	//调用此函数时同时调用一些Ether。
-	//本合同余额将自动更新。
+    //将账户中的value以太币转移到合同中
     function deposit() public payable {}
 
-    // Call this function along with some Ether.
-    // The function will throw an error since this function is not payable
-    //调用此函数时同时调用一些Ether。
-	//该函数将抛出一个错误，因为该函数是不可支付的。
+    //调用此函数时同时调用一些Ether；该函数将抛出一个错误，因为该函数是不可支付的。
     function notPayable() public {}
 
-    // Function to withdraw all Ether from this contract.
+    // 把合约中的以太币转移到执行账户中
     function withdraw() public {
-        // get the amount of Ether stored in this contract
+        // 获取该合同中存储的以太币数量
         uint amount = address(this).balance;
 
-        // send all Ether to owner
-        // Owner can receive Ether since the address of owner is payable
         (bool success, ) = owner.call{value: amount}("");
         require(success, "Failed to send Ether");
     }
 
-    // Function to transfer Ether from this contract to address from input
+    // 将合同中的以太币转移到输入地址中
     function transfer(address payable _to, uint _amount) public {
-        // Note that "to" is declared as payable
+        // “to”被声明为应付款项
         (bool success, ) = _to.call{value: _amount}("");
         require(success, "Failed to send Ether");
     }

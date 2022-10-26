@@ -14,9 +14,19 @@
 
 **第2讲：智能合约源文件基本要素概览** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/02_structure_of_a_contract.md)
 
-**第3讲：数据类型** 文章 | 代码
+**第3讲：数据类型-值类型** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/03_data_types)
 
+**第4讲：函数类型** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/04_function_types)
 
+**第5讲：数据类型-引用类型数据位置** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/05_data_location)
+
+**第6讲：数组(array)** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/06_array)
+
+**第7讲：结构体(struct)** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/07_struct)
+
+**第8讲：映射(mapping)** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/08_mapping)
+
+**第9讲：枚举(enum)** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/09_enum)
 
 
 
