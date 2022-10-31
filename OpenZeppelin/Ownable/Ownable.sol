@@ -1,12 +1,9 @@
-## Ownable
-
-```
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)
 
 pragma solidity ^0.8.0;
 
-import "../utils/Context.sol";
+import "Context.sol";
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
@@ -27,14 +24,14 @@ abstract contract Ownable is Context {
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
     /**
-     * @dev Initializes the contract setting the deployer as the initial owner.
+     * @dev 构造函数 将部署者设置为初始所有者。
      */
     constructor() {
         _transferOwnership(_msgSender());
     }
 
     /**
-     * @dev Throws if called by any account other than the owner.
+     * @dev 修饰 如果发送方不是所有者，则抛出。
      */
     modifier onlyOwner() {
         _checkOwner();
@@ -42,33 +39,29 @@ abstract contract Ownable is Context {
     }
 
     /**
-     * @dev Returns the address of the current owner.
+     * @dev 返回当前所有者的地址
      */
     function owner() public view virtual returns (address) {
         return _owner;
     }
 
     /**
-     * @dev Throws if the sender is not the owner.
+     * @dev 如果发送方不是所有者，则抛出。
      */
     function _checkOwner() internal view virtual {
         require(owner() == _msgSender(), "Ownable: caller is not the owner");
     }
 
     /**
-     * @dev Leaves the contract without owner. It will not be possible to call
-     * `onlyOwner` functions anymore. Can only be called by the current owner.
-     *
-     * NOTE: Renouncing ownership will leave the contract without an owner,
-     * thereby removing any functionality that is only available to the owner.
+     * @dev 离开没有所有者的合同。将无法再调用 onlyOwner函数。只能由当前所有者调用。
+     * NOTE: 放弃所有权将使合同没有所有者，从而删除仅所有者可用的任何功能。
      */
     function renounceOwnership() public virtual onlyOwner {
         _transferOwnership(address(0));
     }
 
     /**
-     * @dev Transfers ownership of the contract to a new account (`newOwner`).
-     * Can only be called by the current owner.
+     * @dev 将合约的所有权转移到一个新账户 ( newOwner)。只能由当前所有者调用。
      */
     function transferOwnership(address newOwner) public virtual onlyOwner {
         require(newOwner != address(0), "Ownable: new owner is the zero address");
@@ -76,8 +69,7 @@ abstract contract Ownable is Context {
     }
 
     /**
-     * @dev Transfers ownership of the contract to a new account (`newOwner`).
-     * Internal function without access restriction.
+     * @dev 将合约的所有权转移到一个新账户 ( newOwner)。内部功能无访问限制。
      */
     function _transferOwnership(address newOwner) internal virtual {
         address oldOwner = _owner;
@@ -85,5 +77,3 @@ abstract contract Ownable is Context {
         emit OwnershipTransferred(oldOwner, newOwner);
     }
 }
-```
-

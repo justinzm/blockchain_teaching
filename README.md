@@ -28,6 +28,22 @@
 
 **第9讲：枚举(enum)** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/09_enum)
 
+**第10讲：可见性和 getter 函数** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/10_visibility_getter)
+
+**第11讲：函数修改器** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/11_modifier)
+
+**第12讲：constant 和 immutable 常量**  [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/12_constant_immutable)
+
+
+
+## OpenZeppelin
+
+**第1讲：Ownable** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/OpenZeppelin/Ownable)
+
+**第2讲：AccessControl** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/OpenZeppelin/AccessControl)
+
+
+
 
 
 ## 案例
