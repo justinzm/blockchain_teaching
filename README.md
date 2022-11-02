@@ -6,6 +6,8 @@
 
 **第1讲：区块链名称解释** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/blockchain_basics/01_explanation_of_nouns.md)
 
+**第2讲：数据如何在区块链中处理和存储** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/blockchain_basics/02_storage.md)
+
 
 
 ## Solidity
@@ -14,7 +16,7 @@
 
 **第2讲：智能合约源文件基本要素概览** [文章](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/02_structure_of_a_contract.md)
 
-**第3讲：数据类型-值类型** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/03_data_types)
+**第3讲：数据类型和数据结构** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/03_data_types)
 
 **第4讲：函数类型** [文章 | 代码](https://github.com/justinzm/blockchain_teaching/blob/main/solidity/04_function_types)
 
